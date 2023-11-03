@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Luckiest+Guy&family=Merriweather:ital@0;1&family=Oxygen:wght@700&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Canvas Drawing App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Drawing App</h1>
+    </header>
+    <div class="container">
+      <div class="fake-border"></div>
+      <div class="field">
+        <div class="tools">
+            <div class="refresh-div">
+              <img src="refreshicon.png" class="refresh-image tools-left-and-right" alt="refresh image" >
+            </div>
+            <div class="brushes">
+              <div class="circleBase circle1"></div>
+              <div class="circleBase circle3"></div>
+              <div class="circleBase circle5"></div>
+              <div class="circleBase circle7"></div>
+              <div class="circleBase circle9"></div>
+            </div>
+            <div class="dropdown">
+              <span id="brush-type-id">BRUSH:</span>
+              <div class="dropdown-content">
+                <p id="cat1">ROUND</p>
+                <p id="cat2">SQUARE</p>
+                <!-- <p id="cat3">BUTT</p> -->
+              </div>
+            </div>
+        </div>
+          <canvas id="canvas1" width="650px" height="350px"></canvas>
+          <div class="pencil-container">
+              <img src="square black.png" class="pencil-image" alt="pencil image" >
+              <img src="square brown.png" class="pencil-image" alt="pencil image" >
+              <img src="square pink.png" class="pencil-image" alt="pencil image" >
+              <img src="square purple.png" class="pencil-image" alt="pencil image" >
+              <img src="square blue.png" class="pencil-image" alt="pencil image" >
+              <img src="square green.png" class="pencil-image" alt="pencil image" >
+              <img src="square yellow.png" class="pencil-image" alt="pencil image" >
+              <img src="square orange.png" class="pencil-image" alt="pencil image" >
+              <img src="square red.png" class="pencil-image" alt="pencil image" >
+              <img src="Eraser2.png" id="eraser-image" class="pencil-image" alt="eraser image" >
+          </div>
+      </div>
+    </div>
+
+<script src="./app.js"></script>
+<!-- <script src="./app.js"></script>  -->
+  </body>
+</html>
